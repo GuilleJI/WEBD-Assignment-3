@@ -30,10 +30,19 @@
       display: none;
    }
    caption{
-      background-color: gray;
+      background-color: #666;
       color: white; 
       font-size: 1.5em;
       line-height: 2em;
+   }
+
+   td{
+      border: 1px dotted gray;
+      color: rgb(11, 12, 145)
+      position: relative; 
+      left: 40%;
+      padding-left: 5px;
+      min-height: 40px;
    }
 
 
