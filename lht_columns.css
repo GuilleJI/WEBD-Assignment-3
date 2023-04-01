@@ -20,6 +20,9 @@ article{
    widows: 2; 
 }
 
+article h1{
+   column-span: all; 
+}
 
 /* Column Styles */
 
