@@ -23,22 +23,24 @@
    table, tbody, tr, td, th, caption {
       display: block;
    }
-   thead{
+   table thead{
       display: none; 
    }
    table h1{
       display: none;
    }
+   
    caption{
       background-color: #333333;
       color: white; 
       font-size: 1.5em;
       line-height: 2em;
+      text-align: center;
    }
 
    td{
       border: 1px dotted gray;
-      color: rgb(11, 12, 145)
+      color: rgb(11, 12, 145);
       position: relative; 
       padding-left: 40%;
       min-height: 40px;
@@ -51,9 +53,9 @@
 
    td::before{
       position: absolute; 
-      left:0;
-      top:0;
-      width:40%;
+      left: 0;
+      top: 0;
+      width: 40%;
       content: attr(data-date);
       padding: 5px;
    }
@@ -69,7 +71,7 @@
 
 @media screen and (min-width: 640px){
       table{
-         background-image: url(lht_photo1.png);
+         background-image: url('lht_photo1.png');
          background-repeat: no-repeat;
          background-position: bottom right;
          background-size: 40%;
